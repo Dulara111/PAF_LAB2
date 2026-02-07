@@ -19,8 +19,11 @@ This is a simple web application project that demonstrates basic HTML structure 
 ```
 PAF_LAB2/
 ├── paf_lab2.html    # Main HTML page
+├── styles.css       # CSS stylesheet (to be created)
 └── README.md        # Project documentation (this file)
 ```
+
+**Note**: The `styles.css` file is referenced in the HTML but not included in the repository. You'll need to create it to add custom styling to your page.
 
 ## 🛠️ Installation
 
@@ -126,9 +129,7 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    margin-top: 2rem;
 }
 ```
 
